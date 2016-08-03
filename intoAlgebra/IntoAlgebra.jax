@@ -731,4 +731,33 @@
 \newcommand {\microtypecontext  }[1]{\MT@setup@contexts \let \MT@reset@context \relax \let \glb@currsize \@empty \setkeys {MTC}{##1}\selectfont \MT@reset@context }
 \newcommand {\reserved@a }[1]{\setbox 0\vbox {\color@begingroup \everypar {}\parfillskip \z@skip \hsize \maxdimen \normalfont \pretolerance \m@ne \tolerance \m@ne \hbadness \z@ \showboxdepth \z@ \ ##1\color@endgroup }}
 \newcommand {\mdf@patchamsthm }[0]{\let \mdf@deferred@thm@head \deferred@thm@head \pretocmd {\deferred@thm@head }{\@inlabelfalse }{\mdf@PackageInfo {mdframed detected package amsthm 
- changed the theorem header of amsthm\MessageBreak }}{\mdf@PackageError {mdframed detected package amsthm
+ changed the theorem header of amsthm\MessageBreak }}{\mdf@PackageError {mdframed detected package amsthm 
+ changed the theorem header of amsthm failed\MessageBreak }}}
+newcommand {EC@ttfamily }[5]{DeclareFontShape {##1}{##2}{##3}{##4}{<5><6><7><8>##50800<9><10><10.95><12><14.4><17.28><20.74><24.88><29.86><35.83>genb*##5}{}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
