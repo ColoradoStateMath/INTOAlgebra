@@ -1,15 +1,10 @@
 \documentclass[10pt,handout,twocolumn,twoside,wordchoicegiven]{xourse}
 
-
 \input{../preamble.tex}
 
-%% \iftikzexport
-%% \newcommand\chapterstyle{}
-%% \newcommand\sectionstyle{}
-%% \else
-%% \usepackage{lulu1}
-%% \fi
+\iftikzexport\else
 \usepackage{lulu1}
+\fi
 
 \title{MATH 117, 118 and 124 for INTO, Colorado State University}
 
@@ -70,7 +65,8 @@
 \activity{../LogsExpVideos/introLogarithms.tex}
 
 
-
-\iftikzexport\else\printindex\fi
+\iftikzexport\else
+\printindex
+\fi
 
 \end{document}

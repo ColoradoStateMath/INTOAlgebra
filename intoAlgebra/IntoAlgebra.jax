@@ -3,7 +3,6 @@
 \newcommand {\skip@preamble }[0]{\let \document \relax \let \enddocument \relax \newenvironment {document}{\let \input \otherinput }{}\renewcommand {\documentclass }[2][subfiles]{}}
 \newcommand {\maketitle }[0]{ \pagestyle {empty} \begin {center} ~\\ \vskip .25\textheight \hrulefill \\ \vskip 1em \bfseries {\Huge \@title } \\ \hrulefill \\ \vskip 3em {\Large \@author } \vskip 2em {\large \@date } \end {center} \clearpage \ifnotoc \else \tableofcontents \clearpage \clearpage \fi \pagestyle {main} \let \maketitle \othermaketitle }
 \newcommand {\activity }[1]{\renewcommand {\input }[1]{} \begingroup \skip@preamble \otherinput {##1}\endgroup \clearpage \let \input \otherinput }
-\newcommand {\activity }[1]{}
 \newcommand {\assignment }[1]{}
 \newcommand {\l@section }[0]{\@dottedtocline {1}{1.5em}{4.2em}}
 \newcommand {\l@subsection }[0]{\@dottedtocline {2}{3.8em}{4.2em}}
@@ -464,6 +463,11 @@
 \newcommand {\subsection }[0]{\@startsection {subparagraph}{10}{\z@ }{3.25ex \@plus 1ex \@minus .2ex}{-1em}{\normalfont \normalsize \sffamily \bfseries }}
 \newcommand {\explanation }[0]{\mdfsetup { font=\upshape , outerlinewidth=3, topline=false, bottomline=false, leftline=true, rightline=false, leftmargin=0, innertopmargin=0pt, innerbottommargin=0pt, skipbelow=\baselineskip , linecolor=textColor!20!white, fontcolor=textColor, backgroundcolor=background }\begin {mdframed}}
 \newcommand {\dialogue }[0]{\renewcommand \descriptionlabel [1]{\hspace {\labelsep }\textbf {####1:}} \small \begin {description}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
 \newcommand {\EC@family }[5]{\DeclareFontShape {##1}{##2}{##3}{##4}{<5><6><7><8><9><10><10.95><12><14.4><17.28><20.74><24.88><29.86><35.83>genb*##5}{}}
 \newcommand {\AppendGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Append \grfext@Check }{\grfext@Append \grfext@@Add }}
 \newcommand {\PrependGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Prepend \grfext@Check }{\grfext@Prepend \grfext@@Add }}
@@ -494,3 +498,91 @@
 \newcommand {\Bigg }[0]{\bBigg@ {2.7}}
 \newcommand {\microtypecontext  }[1]{\MT@setup@contexts \let \MT@reset@context \relax \let \glb@currsize \@empty \setkeys {MTC}{##1}\selectfont \MT@reset@context }
 \newcommand {\reserved@a }[1]{\setbox 0\vbox {\color@begingroup \everypar {}\parfillskip \z@skip \hsize \maxdimen \normalfont \pretolerance \m@ne \tolerance \m@ne \hbadness \z@ \showboxdepth \z@ \ ##1\color@endgroup }}
+newcommand {EC@ttfamily }[5]{DeclareFontShape {##1}{##2}{##3}{##4}{<5><6><7><8>##50800<9><10><10.95><12><14.4><17.28><20.74><24.88><29.86><35.83>genb*##5}{}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
